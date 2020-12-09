@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+section {
+  background: linear-gradient(#02ebfc, #040663);
+  background-repeat: no-repeat;
+}
