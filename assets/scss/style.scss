@@ -1,3 +1,8 @@
+@font-face{
+    font-family: "deluxe";
+    src: url("../../fonts/SantassleighfullDeluxe-9XM7.ttf");
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -6,5 +11,20 @@ body{
 section{
     background: linear-gradient(rgb(2, 235, 252), #040663);
     background-repeat: no-repeat;
+    overflow: hidden;
 }
 
+h1{
+    font-family: "deluxe";
+}
+
+.btn-noel{
+    background-color:rgb(2, 235, 252);
+    border: 2px gold solid;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.btn-noel:focus{
+    outline: none;
+}
