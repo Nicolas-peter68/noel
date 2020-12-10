@@ -9896,3 +9896,7 @@ h3 {
     border-color: #dee2e6;
   }
 }
+.card-body {
+  background: #02ebfc;
+  border: 5px double white;
+}

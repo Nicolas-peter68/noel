@@ -2,6 +2,103 @@
   font-family: "deluxe";
   src: url("../../fonts/SantassleighfullDeluxe-9XM7.ttf");
 }
+.fade-in {
+  animation: fadeIn ease 20s;
+  -webkit-animation: fadeIn ease 20s;
+  -moz-animation: fadeIn ease 20s;
+  -o-animation: fadeIn ease 20s;
+  -ms-animation: fadeIn ease 20s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.fade-in2 {
+  animation: fadeIn2 ease 20s;
+  -webkit-animation: fadeIn2 ease 20s;
+  -moz-animation: fadeIn2 ease 20s;
+  -o-animation: fadeIn2 ease 20s;
+  -ms-animation: fadeIn2 ease 20s;
+  animation-delay: 10s;
+}
+
+@keyframes fadeIn2 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadeIn2 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadeIn2 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadeIn2 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-ms-keyframes fadeIn2 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 body {
   margin: 0;
   padding: 0;
@@ -27,4 +124,14 @@ h1 {
 
 .btn-noel:focus {
   outline: none;
+}
+
+i {
+  font-size: 40px;
+  cursor: pointer;
+}
+
+p {
+  font-family: "deluxe";
+  font-size: 45px;
 }
