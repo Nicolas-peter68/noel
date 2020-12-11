@@ -14,3 +14,39 @@ function mute(m) {
     m.classList.add("fa-volume-mute");
   }
 }
+
+function message() {
+  setTimeout(function () {
+    var mess = document.createElement("p");
+    mess.innerText = "Et meilleurs voeux pour l'année 2021";
+    mess.classList.add("fade-in");
+    mess.setAttribute("id", "texte2");
+    var next = document.getElementById('texte1');
+    next.after(mess);
+  }, 9000);
+  setTimeout(function () {
+    var mess2 = document.createElement('img');
+    mess2.classList.add("fade-in");
+    mess2.setAttribute("src", "assets/img/Modern_Christmas_Tree_4_by_Merlin2525.svg");
+    mess2.setAttribute("height", "600px");
+    var next2 = document.getElementById("texte2");
+    next2.after(mess2);
+  }, 15000);
+  setTimeout(function () {
+    var mess3 = document.createElement('img');
+    mess3.classList.add("slide-left", "star1");
+    mess3.setAttribute("src", "assets/img/251px-Golden_star.png");
+    var next3 = document.getElementById("bgm");
+    next3.after(mess3);
+  }, 20000);
+  setTimeout(function () {
+    var mess4 = document.createElement('img');
+    mess4.classList.add("slide-left", "star2");
+    mess4.setAttribute("src", "assets/img/251px-Golden_star.png");
+    var next4 = document.getElementById("bgm");
+    next4.after(mess4);
+  }, 20000);
+}
+
+;
+window.onload = message();

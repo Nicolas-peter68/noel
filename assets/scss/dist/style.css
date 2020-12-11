@@ -2,6 +2,10 @@
   font-family: "deluxe";
   src: url("../../fonts/SantassleighfullDeluxe-9XM7.ttf");
 }
+@font-face {
+  font-family: "santa";
+  src: url(../../fonts/MerryChristmasStar.ttf);
+}
 .fade-in {
   animation: fadeIn ease 20s;
   -webkit-animation: fadeIn ease 20s;
@@ -10,6 +14,124 @@
   -ms-animation: fadeIn ease 20s;
 }
 
+.slide-left {
+  animation: slideLeft 10s infinite;
+  -webkit-animation: slideLeft 10s infinite;
+  -moz-animation: slideLeft 10s infinite;
+  -o-animation: slideLeft 10s infinite;
+  -ms-animation: slideLeft 10s infinite;
+}
+
+.slide-right {
+  animation: slideRight 10s infinite;
+  -webkit-animation: slideRight 10s infinite;
+  -moz-animation: slideRight 10s infinite;
+  -o-animation: slideRight 10s infinite;
+  -ms-animation: slideRight 10s infinite;
+  animation-delay: 20s;
+}
+
+@keyframes slideLeft {
+  0% {
+    left: -100px;
+    transform: rotate(0deg);
+  }
+  100% {
+    left: 2000px;
+    transform: rotate(360deg);
+  }
+}
+@-moz-keyframes slideLeft {
+  0% {
+    left: -100px;
+    transform: rotate(0deg);
+  }
+  100% {
+    left: 2000px;
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes slideLeft {
+  0% {
+    left: -100px;
+    transform: rotate(0deg);
+  }
+  100% {
+    left: 2000px;
+    transform: rotate(360deg);
+  }
+}
+@-o-keyframes slideLeft {
+  0% {
+    left: -100px;
+    transform: rotate(0deg);
+  }
+  100% {
+    left: 2000px;
+    transform: rotate(360deg);
+  }
+}
+@-ms-keyframes slideLeft {
+  0% {
+    left: -100px;
+    transform: rotate(0deg);
+  }
+  100% {
+    left: 2000px;
+    transform: rotate(360deg);
+  }
+}
+/***/
+@keyframes slideRight {
+  0% {
+    left: -100px;
+    transform: rotate(0deg);
+  }
+  100% {
+    left: 2000px;
+    transform: rotate(360deg);
+  }
+}
+@-moz-keyframes slideRight {
+  0% {
+    left: -100px;
+    transform: rotate(0deg);
+  }
+  100% {
+    left: 2000px;
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes slideRight {
+  0% {
+    left: -100px;
+    transform: rotate(0deg);
+  }
+  100% {
+    left: 2000px;
+    transform: rotate(360deg);
+  }
+}
+@-o-keyframes slideRight {
+  0% {
+    left: -100px;
+    transform: rotate(0deg);
+  }
+  100% {
+    left: 2000px;
+    transform: rotate(360deg);
+  }
+}
+@-ms-keyframes slideRight {
+  0% {
+    left: -100px;
+    transform: rotate(0deg);
+  }
+  100% {
+    left: 2000px;
+    transform: rotate(360deg);
+  }
+}
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -50,55 +172,6 @@
     opacity: 1;
   }
 }
-.fade-in2 {
-  animation: fadeIn2 ease 20s;
-  -webkit-animation: fadeIn2 ease 20s;
-  -moz-animation: fadeIn2 ease 20s;
-  -o-animation: fadeIn2 ease 20s;
-  -ms-animation: fadeIn2 ease 20s;
-  animation-delay: 10s;
-}
-
-@keyframes fadeIn2 {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@-moz-keyframes fadeIn2 {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@-webkit-keyframes fadeIn2 {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@-o-keyframes fadeIn2 {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@-ms-keyframes fadeIn2 {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 body {
   margin: 0;
   padding: 0;
@@ -126,12 +199,47 @@ h1 {
   outline: none;
 }
 
+.star1 {
+  position: absolute;
+  z-index: 12;
+  left: 700px;
+  top: 10px;
+  width: 100px;
+}
+
+.star2 {
+  position: absolute;
+  z-index: 12;
+  left: 700px;
+  bottom: 10px;
+  width: 100px;
+}
+
+.star3 {
+  position: absolute;
+  z-index: 12;
+  right: 700px;
+  top: 10px;
+  width: 100px;
+}
+
+.star4 {
+  position: absolute;
+  z-index: 12;
+  right: 700px;
+  bottom: 10px;
+  width: 100px;
+}
+
 i {
   font-size: 40px;
   cursor: pointer;
+  width: fit-content;
+  position: absolute;
+  z-index: 10;
 }
 
 p {
-  font-family: "deluxe";
+  font-family: "santa";
   font-size: 45px;
 }
