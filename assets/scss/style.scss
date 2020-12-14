@@ -31,7 +31,22 @@
     -moz-animation: slideRight 10s infinite;
     -o-animation: slideRight 10s infinite;
     -ms-animation: slideRight 10s infinite;
-    animation-delay: 20s;
+}
+
+.slide-bottom{
+    animation: slideBottom 12s infinite;
+    -webkit-animation: slideBottom 12s infinite;
+    -moz-animation: slideBottom 12s infinite;
+    -o-animation: slideBottom 12s infinite;
+    -ms-animation: slideBottom 12s infinite;
+}
+
+.slide-top{
+    animation: slideTop 12s infinite;
+    -webkit-animation: slideTop 12s infinite;
+    -moz-animation: slideTop 12s infinite;
+    -o-animation: slideTop 12s infinite;
+    -ms-animation: slideTop 12s infinite;
 }
 
 @keyframes slideLeft{
@@ -91,55 +106,168 @@
 /***/
 @keyframes slideRight{
     0%{
-        left:-100px;
+        right:-100px;
         transform : rotate(0deg);
     }
     100%{
-        left:2000px;
-        transform: rotate(360deg);
+        right:2000px;
+        transform: rotate(-360deg);
     }
 }
 
 @-moz-keyframes slideRight{
     0%{
-        left:-100px;
+        right:-100px;
         transform : rotate(0deg);
     }
     100%{
-        left:2000px;
-        transform: rotate(360deg);
+        right:2000px;
+        transform: rotate(-360deg);
     }
 }
 
 @-webkit-keyframes slideRight{
     0%{
-        left:-100px;
+        right:-100px;
         transform : rotate(0deg);
     }
     100%{
-        left:2000px;
-        transform: rotate(360deg);
+        right:2000px;
+        transform: rotate(-360deg);
     }
 }
 
 @-o-keyframes slideRight{
     0%{
-        left:-100px;
+        right:-100px;
         transform : rotate(0deg);
     }
     100%{
-        left:2000px;
-        transform: rotate(360deg);
+        right:2000px;
+        transform: rotate(-360deg);
     }
 }
 
 @-ms-keyframes slideRight{
     0%{
-        left:-100px;
+        right:-100px;
         transform : rotate(0deg);
     }
     100%{
-        left:2000px;
+        right:2000px;
+        transform: rotate(-360deg);
+    }
+}
+
+/**/
+@keyframes slideBottom{
+    0%{
+        bottom:-100px;
+        transform : rotate(0deg);
+    }
+    100%{
+        bottom:1500px;
+        transform: rotate(-360deg);
+    }
+}
+
+@-moz-keyframes slideBottom{
+    0%{
+        bottom:-100px;
+        transform : rotate(0deg);
+    }
+    100%{
+        bottom:1500px;
+        transform: rotate(-360deg);
+    }
+}
+
+@-webkit-keyframes slideBottom{
+    0%{
+        bottom:-100px;
+        transform : rotate(0deg);
+    }
+    100%{
+        bottom:1500px;
+        transform: rotate(-360deg);
+    }
+}
+
+@-o-keyframes slideBottom{
+    0%{
+        bottom:-100px;
+        transform : rotate(0deg);
+    }
+    100%{
+        bottom:1500px;
+        transform: rotate(-360deg);
+    }
+}
+
+@-ms-keyframes slideBottom{
+    0%{
+        bottom:-100px;
+        transform : rotate(0deg);
+    }
+    100%{
+        bottom:1500px;
+        transform: rotate(-360deg);
+    }
+}
+
+/**/
+
+@keyframes slideTop{
+    0%{
+        top:-100px;
+        transform : rotate(0deg);
+    }
+    100%{
+        top:1500px;
+        transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes slideTop{
+    0%{
+        top:-100px;
+        transform : rotate(0deg);
+    }
+    100%{
+        top:1500px;
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes slideTop{
+    0%{
+        top:-100px;
+        transform : rotate(0deg);
+    }
+    100%{
+        top:1500px;
+        transform: rotate(360deg);
+    }
+}
+
+@-o-keyframes slideTop{
+    0%{
+        top:-100px;
+        transform : rotate(0deg);
+    }
+    100%{
+        top:1500px;
+        transform: rotate(360deg);
+    }
+}
+
+@-ms-keyframes slideTop{
+    0%{
+        top:-100px;
+        transform : rotate(0deg);
+    }
+    100%{
+        top:1500px;
         transform: rotate(360deg);
     }
 }
@@ -254,6 +382,42 @@ h1 {
     z-index: 12;
     right: 700px;
     bottom:10px;
+    width: 100px;
+}
+
+.star5
+{
+    position: absolute;
+    z-index: 12;
+    left: 0px;
+    bottom:10px;
+    width: 100px;
+}
+
+.star6
+{
+    position: absolute;
+    z-index: 12;
+    right: 0px;
+    bottom:10px;
+    width: 100px;
+}
+
+.star7
+{
+    position: absolute;
+    z-index: 12;
+    left: 0px;
+    top:10px;
+    width: 100px;
+}
+
+.star8
+{
+    position: absolute;
+    z-index: 12;
+    right: 0px;
+    top:10px;
     width: 100px;
 }
 i {

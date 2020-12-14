@@ -19,18 +19,26 @@
                 <div class="row vh-100">
                     <div class="my-auto px-4">
                         <h1>Saisissez l'adresse mail de la personne à qui vous voulez souhaiter un joyeux noël</h1>
-                    <form class="form-row">
+                    <form class="form-row" method="post" action="send.php">
                         <div class="form-group col-sm-12">
-                            <label for="exampleInputEmail1">Email</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1">
+                            <label for="exampleInputEmail1">Votre email</label>
+                            <input name="votre_email" type="email" class="form-control" id="exampleInputEmail1">
+                        </div>
+                         <div class="form-group col-sm-12">
+                            <label for="exampleInputPassword1">Votre nom</label>
+                            <input name="votre_nom" type="text" class="form-control" id="exampleInputPassword1">
                         </div>
                         <div class="form-group col-sm-12">
                             <label for="exampleInputPassword1">Objet</label>
-                            <input type="text" class="form-control" id="exampleInputPassword1">
+                            <input name="objet" type="text" class="form-control" id="exampleInputPassword1">
                         </div>
                         <div class="form-group col-sm-12">
-                            <label for="exampleInputPassword1">Nom</label>
-                            <input type="text" class="form-control" id="exampleInputPassword1">
+                            <label for="exampleInputPassword1">Mail du destinataire</label>
+                            <input name="mail_dest" type="mail" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="form-group col-sm-12">
+                            <label for="exampleInputPassword1">Nom du destinataire</label>
+                            <input name="nom_dest" type="text" class="form-control" id="exampleInputPassword1">
                         </div>
                         <div class="form-group col-sm-12">
                             <button type="submit" class="btn-noel">Envoyer</button>
