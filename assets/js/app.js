@@ -17,7 +17,7 @@ function mute(m){
 function message(){
     setTimeout(() => {
       let mess = document.createElement("p");
-      mess.innerText = "Puisse cette nouvelle année être merveilleuse et plein de bonheur";
+      mess.innerText = "Puisse cette nouvelle année être merveilleuse et pleine de bonheur";
       mess.classList.add("fade-in");
       mess.setAttribute("id","texte2");
       let next= document.getElementById('texte1');

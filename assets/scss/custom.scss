@@ -1,7 +1,18 @@
 @import "../bootstrap/scss/bootstrap";
 
 .card-body{
-    background: rgb(2, 235, 252);
-    border: 5px double white;
-    
+    border: 10px ridge white;
+    background: none !important;
+}
+
+.form-control{
+    border: 5px ridge white;
+}
+
+.form-control:focus{
+    outline: none;
+    box-shadow: 0px 0px 20px white,
+    0px 0px 20px white,
+    0px 0px 20px white !important;
+    border-color: white !important;
 }

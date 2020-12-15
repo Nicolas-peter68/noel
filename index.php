@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="assets/scss/dist/custom.css">
     <link rel="stylesheet" href="assets/scss/dist/style.css">
     <link rel="stylesheet" href="assets/scss/dist/snow.css">
-    <title>Document</title>
+    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <title>Formulaire de vœux</title>
 </head>
 <body>
     <section>
@@ -18,7 +19,7 @@
             <div class="row d-flex justify-content-center">
                 <div class="row vh-100">
                     <div class="my-auto px-4">
-                        <h1>Saisissez l'adresse mail de la personne à qui vous voulez souhaiter un joyeux noël</h1>
+                        <h1>À qui souhaitez-vous adresser cette carte de vœux ?</h1>
                     <form class="form-row" method="post" action="send.php">
                         <div class="form-group col-sm-12">
                             <label for="exampleInputEmail1">Votre email</label>

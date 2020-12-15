@@ -293,23 +293,29 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  background-image: url("../../img/winter-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 section {
-  background: linear-gradient(#02ebfc, #040663);
+  background-image: url("../../img/winter-background.jpg");
   background-repeat: no-repeat;
-  overflow: hidden;
+  background-size: cover;
 }
 
 h1 {
-  font-family: "deluxe";
+  font-family: "santa";
+  font-size: 50px;
 }
 
 .btn-noel {
-  background-color: #02ebfc;
-  border: 2px gold solid;
+  background-color: white;
+  font-size: 50px;
+  border: 2px white ridge;
   border-radius: 20px;
   padding: 15px;
+  font-family: "santa";
 }
 
 .btn-noel:focus {
@@ -391,4 +397,19 @@ i {
 p {
   font-family: "santa";
   font-size: 45px;
+}
+
+label {
+  font-size: 30px;
+  font-family: "deluxe", cursive, sans-serif;
+}
+
+@media screen and (max-width: 750px) {
+  body {
+    overflow: visible;
+  }
+
+  section {
+    overflow: visible;
+  }
 }
