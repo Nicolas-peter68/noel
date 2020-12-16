@@ -1,5 +1,5 @@
 const bgm = document.getElementById("bgm");
-bgm.play();
+//bgm.play();
 function mute(m){
 
   if(bgm.muted == true){

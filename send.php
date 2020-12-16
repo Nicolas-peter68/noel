@@ -1,9 +1,10 @@
 <?php
 $to = $_POST['mail_dest'];
 $objet = $_POST['objet'];
-$message = '<html><head><meta charset="UTF-8"><title>Carte</title></head><body>
-<h1>Vous avez reçu une magnifique carte de vœux !</h1>
+$message = '<html><head><meta charset="UTF-8"><title>Carte</title></head><body>'
+.'<h1>'.$_POST['nom_dest'].', tu as reçu une magnifique carte de vœux !</h1>
 <p>cliquez sur le lien ci-dessous pour la voir</p>
+<p>Il se peut que la musique de fond ne soit pas jouée automatiquement pour cela, autorisez votre navigateur à autoriser l\'audio</p>
 <a href="https://nicolasp.promo-45.codeur.online/noel/card.html">Lien</a>
 <p>Carte de vœux réalisée par Nicolas Peter</p>
 <p>Bonnes fêtes de la part des <a href="https://www.accesscodeschool.fr/">ACS de Belfort !</a>.</p>

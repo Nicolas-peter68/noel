@@ -1,7 +1,6 @@
 "use strict";
 
-var bgm = document.getElementById("bgm");
-bgm.play();
+var bgm = document.getElementById("bgm"); //bgm.play();
 
 function mute(m) {
   if (bgm.muted == true) {

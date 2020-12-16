@@ -296,12 +296,14 @@ body {
   background-image: url("../../img/winter-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: bottom;
 }
 
 section {
   background-image: url("../../img/winter-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: bottom;
 }
 
 h1 {
@@ -406,10 +408,10 @@ label {
 
 @media screen and (max-width: 750px) {
   body {
-    overflow: visible;
+    background-attachment: fixed;
   }
 
   section {
-    overflow: visible;
+    background-attachment: fixed;
   }
 }

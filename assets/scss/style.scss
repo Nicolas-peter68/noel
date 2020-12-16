@@ -329,14 +329,14 @@ body {
     background-image: url("../../img/winter-background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: bottom;
 }
 
 section {
     background-image: url("../../img/winter-background.jpg");
-    //background: linear-gradient(rgb(2, 235, 252), #040663);
     background-repeat: no-repeat;
     background-size: cover;
-    //overflow: hidden;
+    background-position: bottom;
 }
 
 h1 {
@@ -373,7 +373,6 @@ h1 {
     left: 700px;
     bottom:10px;
     width: 100px;
-    //background: linear-gradient(90deg, transparent,yellow)
 }
 
 .star3
@@ -447,10 +446,10 @@ label{
 
 @media screen and (max-width: 750px){
     body{
-        overflow: visible;
+        background-attachment: fixed;
     }
 
     section{
-        overflow: visible;
+        background-attachment: fixed;
     }
 }
